@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:futurebuilder/httpfuture.dart';
+import 'json_placeholder_view.dart';
 
 void main() {
   runApp(MyApp());
@@ -13,7 +14,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: HttpFutureBuilder(),
+      home: //HttpFutureBuilder(),
+          JsonPlaceHolderView(),
     );
   }
 }
