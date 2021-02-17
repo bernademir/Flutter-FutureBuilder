@@ -35,7 +35,7 @@ class _JsonPlaceHolderViewState extends State<JsonPlaceHolderView> {
           if (snapshot.hasData) {
             return ListTile(
               title: Text(snapshot.data.title),
-              subtitle: Text(snapshot.data.title),
+              subtitle: Text(snapshot.data.body),
             );
           } else {
             return Center(
