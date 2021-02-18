@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:futurebuilder/firebase_view.dart';
 import 'package:futurebuilder/httpfuture.dart';
 import 'json_placeholder_view.dart';
 
@@ -15,7 +16,8 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: //HttpFutureBuilder(),
-          JsonPlaceHolderView(),
+          //JsonPlaceHolderView(),
+          FirebaseView(),
     );
   }
 }
