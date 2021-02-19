@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:futurebuilder/postfirebase.dart';
+import 'package:futurebuilder/viewmodals/postfirebase.dart';
 import 'package:http/http.dart' as http;
 
 class FirebaseView extends StatefulWidget {

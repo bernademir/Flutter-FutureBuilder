@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:futurebuilder/post.dart';
+import 'package:futurebuilder/viewmodals/post.dart';
 import 'package:http/http.dart' as http;
 
 class JsonPlaceHolderView extends StatefulWidget {

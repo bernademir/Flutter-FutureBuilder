@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:futurebuilder/firebase_view.dart';
+import 'package:futurebuilder/views/file_download_view.dart';
+//import 'package:futurebuilder/views/firebase_view.dart';
 //import 'package:futurebuilder/httpfuture.dart';
 //import 'json_placeholder_view.dart';
 
@@ -17,7 +18,8 @@ class MyApp extends StatelessWidget {
       ),
       home: //HttpFutureBuilder(),
           //JsonPlaceHolderView(),
-          FirebaseView(),
+          //FirebaseView(),
+          FileDownloadView(),
     );
   }
 }
