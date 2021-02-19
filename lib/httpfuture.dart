@@ -26,11 +26,12 @@ class _HttpFutureBuilderState extends State<HttpFutureBuilder> {
               if (snapshot.hasData)
                 return Text(json.decode(snapshot.data));
               else
-                Text("You have error.Look at api.");
+                Text("You have an error. Look at the api.");
             } else if (snapshot.connectionState == ConnectionState.waiting) {
               return CircularProgressIndicator();
             } else
-              return Text("You have error.Are you sure api ?");
+              return Text(
+                  "You have an error.Are you sure the api is correct ?");
             return snapshot.data;
           },
         ),

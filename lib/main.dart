@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:futurebuilder/firebase_view.dart';
-import 'package:futurebuilder/httpfuture.dart';
-import 'json_placeholder_view.dart';
+//import 'package:futurebuilder/httpfuture.dart';
+//import 'json_placeholder_view.dart';
 
 void main() {
   runApp(MyApp());
